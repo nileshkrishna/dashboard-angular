@@ -9,6 +9,7 @@ import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 })
 export class DashComponent {
   /** Based on the screen size, switch from standard to one column per row */
+  // BreakpointObserver utility of the Layout package assesses media queries and makes UI changes based on them.
   cards = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
     map(({ matches }) => {
       if (matches) {
