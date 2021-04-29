@@ -20,6 +20,7 @@ import { CardComponent } from './card/card.component';
 import { ProductSalesChartComponent } from './charts/product-sales-chart/product-sales-chart.component';
 import { SalesTrafficChartComponent } from './charts/sales-traffic-chart/sales-traffic-chart.component';
 import { AnnualSalesChartComponent } from './charts/annual-sales-chart/annual-sales-chart.component';
+import { StoreSessionsChartComponent } from './charts/store-sessions-chart/store-sessions-chart.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { AnnualSalesChartComponent } from './charts/annual-sales-chart/annual-sa
     CardComponent,
     ProductSalesChartComponent,
     SalesTrafficChartComponent,
-    AnnualSalesChartComponent
+    AnnualSalesChartComponent,
+    StoreSessionsChartComponent
   ],
   imports: [
     BrowserModule,
