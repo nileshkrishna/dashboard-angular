@@ -18,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { CardComponent } from './card/card.component';
 import { ProductSalesChartComponent } from './charts/product-sales-chart/product-sales-chart.component';
+import { SalesTrafficChartComponent } from './charts/sales-traffic-chart/sales-traffic-chart.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProductSalesChartComponent } from './charts/product-sales-chart/product
     NavComponent,
     DashComponent,
     CardComponent,
-    ProductSalesChartComponent
+    ProductSalesChartComponent,
+    SalesTrafficChartComponent
   ],
   imports: [
     BrowserModule,
