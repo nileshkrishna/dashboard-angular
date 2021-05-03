@@ -20,8 +20,8 @@ export class DashComponent {
           table: { cols: 1, rows: 4 },
         };
       }
- 
-     return {
+
+      return {
         columns: 4,
         miniCard: { cols: 1, rows: 1 },
         chart: { cols: 2, rows: 2 },
@@ -30,5 +30,5 @@ export class DashComponent {
     })
   );
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
+  constructor(private breakpointObserver: BreakpointObserver) { }
 }
